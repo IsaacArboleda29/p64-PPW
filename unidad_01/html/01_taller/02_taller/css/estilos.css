@@ -15,6 +15,7 @@ li.enlace{
 
 .caja-enlace{
     display: inline-block;
+    width: 200px;
     border: 1px solid lightgrey;
     padding: 5px;
     margin: 5px;
@@ -28,7 +29,8 @@ li.enlace{
 
 }
 .imagen{
-    width: 400px;
+    width: 200px;
+    height: 200px;
 
 }
 
