@@ -6,3 +6,6 @@ p{
     font-size: 18px;
     background-color: lightskyblue;
 }
+.limpiar{
+    clear: both;
+}
