@@ -8,6 +8,10 @@ h1{
 a{
 
 }
+li.enlace{
+    display: inline-block ;
+
+}
 .caja-enlace{
     display: inline-block;
     border: 1px solid lightblue;
