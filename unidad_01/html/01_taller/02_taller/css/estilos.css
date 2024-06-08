@@ -12,10 +12,35 @@ li.enlace{
     display: inline-block ;
 
 }
+
 .caja-enlace{
     display: inline-block;
-    border: 1px solid lightblue;
+    border: 1px solid lightgrey;
     padding: 5px;
     margin: 5px;
+   /*box-shadow: 8px 8px 5px rgba(0,0,0,0.5) ;*/
 
+}
+.cotaier-imagen{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
+.imagen{
+    width: 400px;
+
+}
+
+.container-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+
+}
+.container-footer{
+    color: aliceblue ;
+    font-size: 20px;
+    background-color: black;
 }
