@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template: 150px 1fr 50px / 1fr;
+    grid-template-areas: "header header" "left content" "footer footer";
+    grid-gap: px;
+    height: 100vh;
+}
+
+.item {
+    background-color: dodgerblue;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.header {
+    grid-area: header;
+}
+
+
+.left {
+    grid-area: left;
+}
+
+.content {
+ grid-area: xx-large;
+ font-size: larger;
+ overflow-y:auto ;
+ height: calc(100vh -200px) ;
+
+}
+
+.footer {
+    grid-area: footer;
+}
