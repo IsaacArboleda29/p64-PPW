@@ -17,29 +17,39 @@
 }
 
 .header {
-    grid-area: header;
+    grid-area: header;font-size: 40px;
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: center;
     
 }
 .menu{
     grid-area: menu;
+   font-size: 40px;
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: center;
 }
 
 
 
-.left {
-    grid-area: left;
-}
+
 
 .content {
     grid-area: content;
     display: flex;
     flex-direction: column;
+    
     align-items: center;
     
 }
 
 .footer {
     grid-area: footer;
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .cd {
