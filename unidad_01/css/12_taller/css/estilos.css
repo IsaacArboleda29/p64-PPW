@@ -35,6 +35,8 @@
 
 
 
+
+
 .content {
     grid-area: content;
     display: flex;
@@ -53,15 +55,16 @@
 }
 
 .cd {
-    border: 2px solid dodgerblue;
+    border: 2px solid rgb(27, 63, 99);
     background-color: yellow;
     height: 200px;
-    width: 564px;
+    width: 568px;
     padding: 20px;
     font-size: 20px;
     color: aliceblue;
     font-weight: bolder;
     text-align: center;
+    margin: 1px;
 }
 .row{
     display: flex;
@@ -70,21 +73,21 @@
 }
 
 .ca{
-    border: 1px solid dodgerblue;
+    border: 2px solid rgb(27, 63, 99);
     background-color: gray;
     height: 80px;
     width: 200px;
 
 }
 .ca1{
-    border: 1px solid dodgerblue;
+    border: 2px solid rgb(27, 63, 99);
     background-color: blue;
     height: 80px;
     width: 200px;
 
 }
 .ca2{ 
-    border: 1px solid dodgerblue;
+    border: 2px solid rgb(27, 63, 99);
     background-color: pink;
     height: 80px;
     width: 200px;
