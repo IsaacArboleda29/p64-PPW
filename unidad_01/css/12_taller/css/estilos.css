@@ -6,6 +6,7 @@
     display: grid;
 
     grid-template-areas: "header header" "menu menu"  " content content" "footer footer";
+    grid-template-rows: 120px 60px 455px 60px;
     grid-gap: 5px;
     height: 100vh;
 }
@@ -29,6 +30,7 @@
     color: aliceblue;
     font-weight: bolder;
     text-align: center;
+    padding: 10px;
 }
 
 
@@ -41,9 +43,12 @@
     grid-area: content;
     display: flex;
     flex-direction: column;
-    
-    align-items: center;
     text-align: left;
+    padding: 20px;
+    font-size: 40px;
+    color: aliceblue;
+
+
 }
 
 .footer {
@@ -63,7 +68,7 @@
     font-size: 20px;
     color: aliceblue;
     font-weight: bolder;
-    text-align: center;
+    
     margin: 1px;
 }
 .row{
@@ -100,5 +105,12 @@
    
     padding: 30px;
     border: 1px solid lightgray;
+    
+}
+.cj{
+    grid-area: cj;
+    
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
