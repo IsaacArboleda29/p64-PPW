@@ -1,0 +1,1 @@
+console.log("Estoy en scrip2.js ytexto dice :"+texto)
