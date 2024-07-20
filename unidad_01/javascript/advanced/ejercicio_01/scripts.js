@@ -15,7 +15,7 @@ function obtener_respuesta(){
             
 
            let container =document.getElementById('container')
-           let personaje = `<h1>${dato.name}</h1>
+           let personaje = `<div class="container-item"><h1>${dato.name}</h1>
            <img src="${dato.image}" />`
             container.innerHTML= personaje
         }
